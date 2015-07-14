@@ -1,0 +1,52 @@
+{
+	"app": {
+		"debug": true,
+		"pollInterval": 60000
+	},
+	"contentful": {
+		"endpointUrl": 			"{contentful_endpoint_in_here}",
+		"authorisationHeader": 	"Bearer {your_auth_access_token}",
+		"contentTypeHeader": 	"application/vnd.contentful.delivery.v1+json",
+		"spaceId": 				"{your_contentful_space_id_here}",
+		"key":					"Basic {your_auth_key_for_hooks}",
+		"contentTypes": [
+			{
+				"name": "release",
+				"id": "{content_type_id}"
+			},
+			{
+				"name": "gig",
+				"id": "{content_type_id}"
+			},
+			{
+				"name": "page",
+				"id": "{content_type_id}"
+			},
+			{
+				"name": "video",
+				"id": "{content_type_id}"
+			}
+		]
+	},
+	"instagram": {
+		"apiUrl": 			"https://api.instagram.com",
+		"clientID": 		"{your_client_id}",
+		"userId": 			"{your_user_id}"
+	},
+	"mailchimp": {
+		"endpointUrl": "{your_mailchimp_endpoint_url}",
+		"apiKey": "{your_api_key}",
+		"listId": "{your_list_id}"
+	},
+  "facebook" : {
+    "appId": "470100963137983",
+    "secret": "b3429c0230ed547207b2d7bbf032926e"
+  },
+  "kadira": {
+    "appId": "D2mHBsZB9JuGnPFnY",
+    "appSecret": "d775d353-69fa-42d8-9a20-c329a5403f9b"
+  },
+  "papertrail" : {
+    "port" : 2222
+  }
+}
