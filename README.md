@@ -8,7 +8,7 @@ Install [MongoDB](https://www.mongodb.org/downloads)
 Install [Meteor](https://www.meteor.com/install)
 ```shell
 $ curl https://install.meteor.com/ | sh
-
+```
 [Clone](https://github.com/PHRESHR/meteor-react-starter.git) or
 [fork](https://github.com/PHRESHR/meteor-react-starter.git/fork) the repo and start hacking:
 
@@ -16,3 +16,4 @@ $ curl https://install.meteor.com/ | sh
 $ git clone https://github.com/PHRESHR/meteor-react-starter.git MyApp
 $ cd MyApp
 $ meteor
+```
