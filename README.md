@@ -5,7 +5,9 @@
 
 ### Getting Started
 Install [MongoDB](https://www.mongodb.org/downloads)
+
 Install [Meteor](https://www.meteor.com/install)
+
 ```shell
 $ curl https://install.meteor.com/ | sh
 ```
