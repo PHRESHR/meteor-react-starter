@@ -19,3 +19,6 @@ $ git clone https://github.com/PHRESHR/meteor-react-starter.git MyApp
 $ cd MyApp
 $ meteor
 ```
+
+## TODO
+* **Add PostCSS, Gulp build process for css.** 
