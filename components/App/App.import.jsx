@@ -1,4 +1,4 @@
-import {Grid, Col, Row, Navbar} from 'bootstrap';
+import { Grid, Col, Row, Navbar } from 'bootstrap';
 
 export default React.createClass({
   render() {
@@ -16,7 +16,7 @@ export default React.createClass({
         <Grid>
           <Row>
             <Col sm={12}>
-              {this.props.content}
+              { this.props.content }
             </Col>
           </Row>
         </Grid>

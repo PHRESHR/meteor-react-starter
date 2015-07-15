@@ -1,7 +1,3 @@
-/* jshint esnext: true */
-/* global Meteor, Roles, Accounts, System */
-"use strict";
-
 import { _ } from 'app-deps';
 
 // imports with side-effects
@@ -14,12 +10,12 @@ Meteor.startup(function () {
 
   // Create roles using the `alanning:roles` package
 
-  if(!Meteor.roles.findOne({name: "read"})) {
-    Roles.createRole("read");
+  if (!Meteor.roles.findOne({ name: 'read' })) {
+    Roles.createRole('read');
   }
 
-  if(!Meteor.roles.findOne({name: "write"})) {
-    Roles.createRole("write");
+  if (!Meteor.roles.findOne({ name: 'write' })) {
+    Roles.createRole('write');
   }
 
   // Configure the accounts system so that users can't create their own
@@ -46,12 +42,12 @@ Meteor.startup(function () {
 
   // Create the initial admin user if one doesn't exist
 
-  var adminUser = Meteor.users.findOne({username: "admin"});
+  let adminUser = Meteor.users.findOne({ username: 'admin' });
 
-  if(!adminUser) {
+  if (!adminUser) {
     console.warn("WARNING: Creating default admin user. Log in as 'admin@example.org' with password 'secret' and change the password!");
 
-    var userId = Accounts.createUser({
+    let userId = Accounts.createUser({
       'username': 'admin',
       'email': 'admin@example.org',
       'password': 'secret'

@@ -1,4 +1,4 @@
-import {Jumbotron, Button} from 'bootstrap';
+import { Jumbotron, Button } from 'bootstrap';
 
 export default React.createClass({
   render() {
