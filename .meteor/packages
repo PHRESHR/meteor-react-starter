@@ -5,6 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
+accounts-password
 react
 reactive-var
 
@@ -12,9 +13,12 @@ aldeed:collection2
 kadira:react-layout
 meteorhacks:flow-router
 universe:react-bootstrap
-universe:modules
+universe:modules@=0.2.1
+deanius:promise
 alanning:roles
+sanjo:jasmine
+velocity:html-reporter
 meteorhacks:npm
 
-
+app-deps
 npm-container
