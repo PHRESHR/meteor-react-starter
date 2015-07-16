@@ -1,6 +1,9 @@
 import { Grid, Col, Row, Navbar } from 'bootstrap';
 
-export default React.createClass({
+export default class App extends React.Component {
+  constructor(...args) {
+    super(...args);
+  }
   render() {
     return (
       <div>
@@ -23,4 +26,4 @@ export default React.createClass({
       </div>
     );
   }
-});
+}

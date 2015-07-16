@@ -1,6 +1,6 @@
 import { Jumbotron, Button } from 'bootstrap';
 
-export default React.createClass({
+export default class NotFound extends React.Component {
   render() {
     return (
       <Jumbotron>
@@ -14,4 +14,4 @@ export default React.createClass({
       </Jumbotron>
     );
   }
-});
+}
