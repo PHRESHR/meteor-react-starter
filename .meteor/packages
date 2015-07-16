@@ -18,7 +18,6 @@ deanius:promise
 alanning:roles
 sanjo:jasmine
 velocity:html-reporter
-meteorhacks:npm
 
 app-deps
-npm-container
+app-postcss
