@@ -6,6 +6,7 @@ aldeed:simple-schema@1.3.3
 amplify@1.0.0
 app-deps@0.0.1
 app-postcss@0.1.0
+aramk:q@1.0.1_1
 autoupdate@1.2.1
 babel-compiler@5.7.3
 babel-runtime@0.1.2
@@ -38,9 +39,12 @@ less@1.0.14
 livedata@1.0.13
 localstorage@1.0.3
 logging@1.0.7
+matfin:meteor-contentful@1.0.0
 meteor@1.1.6
 meteor-platform@1.2.2
+meteorhacks:async@1.0.0
 meteorhacks:flow-router@1.18.0
+meteorhacks:npm@1.3.0
 minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3

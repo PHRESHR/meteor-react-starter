@@ -11,5 +11,4 @@ Dependencies = {
   _: require('lodash'),
   moment: require('moment'),
   classNames: require('classnames'),
-  ReactBootstrap: require('react-bootstrap'),
 };

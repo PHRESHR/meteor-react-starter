@@ -16,7 +16,6 @@ Npm.depends({
   "moment": "2.10.3",
   "externalify": "0.1.0",
   "lodash": "3.10.0",
-  "react-bootstrap": "0.23.7",
 });
 
 // Note specific package versions embedded below as well.
