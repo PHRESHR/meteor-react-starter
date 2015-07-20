@@ -1,5 +1,3 @@
-import { Grid, Col, Row, Navbar } from 'bootstrap';
-
 export default class App extends React.Component {
   constructor(...args) {
     super(...args);
@@ -7,7 +5,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar brand={<a href="/">Tomorrow Pictures</a>} staticTop={true}>
+        <nav brand={<a href="/">Tomorrow Pictures</a>} staticTop={true}>
+          <a href="/">Tomorrow Pictures</a>
           <ul className="nav navbar-nav">
             <li><a href="/">Home</a></li>
             <li><a href="#">Another Link</a></li>
@@ -15,14 +14,12 @@ export default class App extends React.Component {
           <ul className="nav navbar-nav navbar-right">
             <li><a href="http://tomorrowpictures.com" target="_blank">Visit Tomorrow Pictures Inc.</a></li>
           </ul>
-        </Navbar>
-        <Grid>
-          <Row>
-            <Col sm={12}>
-              { this.props.content }
-            </Col>
-          </Row>
-        </Grid>
+        </nav>
+        <section>
+          <div>
+            { this.props.content }
+          </div>
+        </section>
       </div>
     );
   }

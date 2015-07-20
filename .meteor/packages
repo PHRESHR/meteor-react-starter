@@ -12,8 +12,9 @@ reactive-var
 aldeed:collection2
 kadira:react-layout
 meteorhacks:flow-router
-universe:react-bootstrap
-universe:modules@=0.2.1
+#universe:react-bootstrap
+#universe:modules@=0.2.1
+universe:modules
 deanius:promise
 alanning:roles
 sanjo:jasmine

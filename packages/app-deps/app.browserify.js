@@ -1,5 +1,3 @@
-/* global require, Dependencies:true */
-
 // Import client-side npm modules and put them into the Dependencies object.
 // We can then access `Dependences` elsewhere in client-side code to use
 // these modules.
@@ -13,4 +11,5 @@ Dependencies = {
   _: require('lodash'),
   moment: require('moment'),
   classNames: require('classnames'),
+  ReactBootstrap: require('react-bootstrap'),
 };

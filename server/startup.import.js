@@ -1,4 +1,4 @@
-import { _ } from 'app-deps';
+import { _ } from 'app-deps/main';
 
 // imports with side-effects
 import 'lib/models';
@@ -45,12 +45,12 @@ Meteor.startup(function () {
   let adminUser = Meteor.users.findOne({ username: 'admin' });
 
   if (!adminUser) {
-    console.warn("WARNING: Creating default admin user. Log in as 'admin@example.org' with password 'secret' and change the password!");
+    console.warn("WARNING: Creating default admin user. Log in as 'admin@example.com' with password 'secret123' and change the password!");
 
     let userId = Accounts.createUser({
       'username': 'admin',
-      'email': 'admin@example.org',
-      'password': 'secret'
+      'email': 'admin@example.com',
+      'password': 'secret123'
     });
 
     Roles.addUsersToRoles(userId, ['admin']);

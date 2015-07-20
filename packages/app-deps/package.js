@@ -1,4 +1,3 @@
-/* global Package, Npm */
 "use strict";
 
 Package.describe({
@@ -15,8 +14,9 @@ Package.describe({
 Npm.depends({
   "classnames": "2.1.2",
   "moment": "2.10.3",
-  "exposify": "0.4.3",
+  "externalify": "0.1.0",
   "lodash": "3.10.0",
+  "react-bootstrap": "0.23.7",
 });
 
 // Note specific package versions embedded below as well.
@@ -24,17 +24,17 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use([
-    'cosmos:browserify@0.4.0',
-    'react@0.1.0',
+    'cosmos:browserify@0.5.0',
+    'react@0.1.3',
   ], 'client');
 
   api.use([
-    'universe:modules@0.2.0',
+    'universe:modules',
   ]);
 
   api.addFiles([
-    'client.browserify.js',
-    'client.browserify.options.json'
+    'app.browserify.js',
+    'app.browserify.options.json'
   ], 'client');
 
   api.addFiles([
