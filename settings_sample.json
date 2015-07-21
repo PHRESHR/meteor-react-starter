@@ -9,11 +9,14 @@
 		"contentTypeHeader": 	"application/vnd.contentful.delivery.v1+json",
 		"spaceId": "<your space ID>",
 		"processedImageCollectionName": "ac_images",
-		"callbackAuthKey": "<Optional callback auth key>",
 		"contentTypes": [
 			{
-				"name": "<content type name>",
-				"id": "<content type id>"
+				"name": "<meaningful-name>",
+				"id": "<contentful-id>"
+			},
+			{
+				"name": "<another-meaningful-name>",
+				"id": "<another-contentful-id>"
 			}
 		],
 		"imageProcessor": {

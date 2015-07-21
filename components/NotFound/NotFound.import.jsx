@@ -3,12 +3,7 @@ export default class NotFound extends React.Component {
     return (
       <section>
         <h2>Page Not Found</h2>
-
         <p>Demonstrating Not Found Page</p>
-
-        <a href="/">
-          <button className='primary'>Home</button>
-        </a>
       </section>
     );
   }

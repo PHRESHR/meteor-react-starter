@@ -1,29 +1,36 @@
+import TopBar from '../TopBar/TopBar';
+import Footer from '../Footer/Footer';
+
 export default class App extends React.Component {
   constructor(...args) {
     super(...args);
   }
+  static defaultProps() {
+    items: [
+      'Home'
+    ];
+  };
+
+  static propTypes() {
+    items: React.PropTypes.array.isRequired;
+  };
   render() {
-    let navBar = (
-      <nav>
-        <a href="/">Tomorrow Pictures</a>
-        <ul className="nav navbar-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="#">Another Link</a></li>
-        </ul>
-        <ul className="nav navbar-nav navbar-right">
-          <li><a href="http://tomorrowpictures.com" target="_blank">Visit Tomorrow Pictures Inc.</a></li>
-        </ul>
-      </nav>
+    let Header = (
+      <TopBar></TopBar>
     );
     let mainContent = (
       <main>
         { this.props.content }
       </main>
     );
+    let SiteFooter = (
+      <Footer></Footer>
+    );
     let appCanvas = (
       <div className="wrap">
-        { navBar }
+        { Header }
         { mainContent }
+        { SiteFooter }
       </div>
     );
     return appCanvas;
