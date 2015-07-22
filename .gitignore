@@ -1,0 +1,14 @@
+.DS_Store
+.git
+.npm
+.meteor/local
+node_modules
+jspm_packages
+bower_components
+.settings
+*.log
+*.src
+*.zip
+*.log
+.tmp/
+dist

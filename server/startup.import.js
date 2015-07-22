@@ -1,5 +1,3 @@
-import { _ } from 'app-deps/main';
-
 // imports with side-effects
 import 'lib/models';
 import 'server/admin';

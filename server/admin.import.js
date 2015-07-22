@@ -12,7 +12,7 @@ Meteor.methods({
 
     let userId = Accounts.createUser({
       username: email,
-      email: email
+      email
     });
 
     Roles.addUsersToRoles(userId, [role]);

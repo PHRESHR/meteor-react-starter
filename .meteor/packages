@@ -4,22 +4,23 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
+autopublish
 meteor-platform
-accounts-password
 react
 reactive-var
+accounts-password
 
 aldeed:collection2
-kadira:react-layout
-meteorhacks:flow-router
-#universe:react-bootstrap
-#universe:modules@=0.2.1
-universe:modules
+cosmos:browserify
+meteorhacks:npm
+universe:modules@0.2.1
 deanius:promise
 alanning:roles
 sanjo:jasmine
 velocity:html-reporter
+#matfin:meteor-contentful
 
-app-deps
 app-postcss
-matfin:meteor-contentful
+
+
+npm-container
