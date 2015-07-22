@@ -1,4 +1,4 @@
-import MainNav from 'client/components/MainNav/MainNav';
+import MainNav from 'components/MainNav/MainNav';
 
 export default class Header extends React.Component {
   constructor(props) {

@@ -1,15 +1,8 @@
-import TopBar from 'client/components/TopBar/TopBar';
-import Footer from 'client/components/Footer/Footer';
-
-const {
-  Link,
-  Navigation,
-  State,
-  RouteHandler
-} = ReactRouter;
+import TopBar from 'components/TopBar/TopBar';
+import Footer from 'components/Footer/Footer';
 
 export default React.createClass({
-  mixins: [ ReactMeteorData, Navigation, State ],
+  mixins: [ReactMeteorData],
   getMeteorData() {
     return {
       //
@@ -21,7 +14,7 @@ export default React.createClass({
     );
     let mainContent = (
       <main>
-        <RouteHandler />
+        { this.props.content }
       </main>
     );
     let SiteFooter = (

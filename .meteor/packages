@@ -4,7 +4,6 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-autopublish
 meteor-platform
 react
 reactive-var
@@ -13,6 +12,9 @@ accounts-password
 aldeed:collection2
 cosmos:browserify
 meteorhacks:npm
+meteorhacks:flow-router-ssr
+meteorhacks:fast-render
+kadira:react-layout
 universe:modules@0.2.1
 deanius:promise
 alanning:roles
