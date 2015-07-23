@@ -5,23 +5,23 @@
 	},
 	"contentful": {
 		"endpointUrl": "http://cdn.contentful.com",
-		"authorisationHeader": "Bearer <Your access token>",
+		"authorisationHeader": "Bearer 06abd7a261d8f3b45e87df5685d64a81f1b45835343a1b3c9776b0568a7ed6d2",
 		"contentTypeHeader": 	"application/vnd.contentful.delivery.v1+json",
-		"spaceId": "<your space ID>",
+		"spaceId": "da6x7y87wrrf",
 		"processedImageCollectionName": "ac_images",
 		"contentTypes": [
 			{
-				"name": "<meaningful-name>",
-				"id": "<contentful-id>"
+				"name": "shows",
+				"id": "BRtnSNK9PwE6ISKAmc2ak"
 			},
 			{
-				"name": "<another-meaningful-name>",
-				"id": "<another-contentful-id>"
+				"name": "series",
+				"id": "1xCErpJY44GyQsM6KoukG2"
 			}
 		],
 		"imageProcessor": {
-		  "path": "<local filesystem path>",
-		  "baseUrl": "http://sub.example.tld",
+		  "path": "./public/assets/images/content",
+		  "baseUrl": "http://media.phreshr.com",
 		  "quality": 0.9,
 		  "pixelDensities": [
 		    {
@@ -38,28 +38,28 @@
 		    }
 		  ],
 		  "imageTypes": {
-		    "portfolio": {
+		    "cover": {
 		      "fileType": "jpg",
 		      "sizes": [
 		        {
 		          "device": "desktop",
-		          "width": 685,
-		          "height": 405
+		          "width": 2560,
+		          "height": 1554
 		        },
 		        {
 		          "device": "laptop",
-		          "width": 548,
-		          "height": 324
+		          "width": 1600,
+		          "height": 971
 		        },
 		        {
 		          "device": "tablet",
-		          "width": 768,
-		          "height": 454
+		          "width": 1280,
+		          "height": 777
 		        },
 		        {
 		          "device": "mobile",
 		          "width": 640,
-		          "height": 378
+		          "height": 389
 		        }
 		      ]
 		    },
@@ -68,23 +68,23 @@
 		      "sizes": [
 		        {
 		          "device": "desktop",
-		          "width": 80,
-		          "height": 80
+		          "width": 410,
+		          "height": 75
 		        },
 		        {
 		          "device": "laptop",
-		          "width": 80,
-		          "height": 80
-		        },
-		        {
-		          "device": "tablet",
-		          "width": 70,
+		          "width": 380,
 		          "height": 70
 		        },
 		        {
+		          "device": "tablet",
+		          "width": 300,
+		          "height": 55
+		        },
+		        {
 		          "device": "mobile",
-		          "width": 50,
-		          "height": 50
+		          "width": 250,
+		          "height": 46
 		        }
 		      ]
 		    }

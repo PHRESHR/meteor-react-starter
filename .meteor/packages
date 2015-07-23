@@ -9,18 +9,17 @@ react
 reactive-var
 accounts-password
 
-aldeed:collection2
-cosmos:browserify
 meteorhacks:npm
 meteorhacks:flow-router-ssr
 meteorhacks:fast-render
-kadira:react-layout
-universe:modules@0.2.1
 deanius:promise
 alanning:roles
+kadira:react-layout
+cosmos:browserify
+universe:modules@0.2.1
 sanjo:jasmine
 velocity:html-reporter
-#matfin:meteor-contentful
+matfin:meteor-contentful
 
 app-postcss
 

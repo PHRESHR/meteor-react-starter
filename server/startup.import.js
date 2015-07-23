@@ -1,5 +1,5 @@
 // imports with side-effects
-import 'lib/models';
+import 'lib/collections';
 import 'server/admin';
 
 // Perform application initialisation on startup
