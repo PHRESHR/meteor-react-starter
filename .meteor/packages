@@ -5,22 +5,24 @@
 # but you can also edit it by hand.
 
 meteor-platform
-react
 reactive-var
 accounts-password
+accounts-facebook
+accounts-twitter
+accounts-google
+browser-policy
+react
 
-aldeed:collection2
-cosmos:browserify
-meteorhacks:npm
-meteorhacks:flow-router-ssr
-meteorhacks:fast-render
 kadira:react-layout
-universe:modules@0.2.1
-deanius:promise
-alanning:roles
+meteorhacks:npm
+meteorhacks:flow-router
+meteorhacks:fast-render
+
+cosmos:browserify
+universe:modules
+
 sanjo:jasmine
 velocity:html-reporter
-#matfin:meteor-contentful
 
 app-postcss
 
