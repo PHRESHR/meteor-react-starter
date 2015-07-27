@@ -48,7 +48,7 @@ meteor@1.1.6
 meteor-platform@1.2.2
 meteorhacks:async@1.0.0
 meteorhacks:fast-render@2.7.1
-meteorhacks:flow-router@1.19.0
+meteorhacks:flow-router-ssr@2.0.1
 meteorhacks:inject-data@1.3.0
 meteorhacks:npm@1.4.0
 meteorhacks:picker@1.0.3

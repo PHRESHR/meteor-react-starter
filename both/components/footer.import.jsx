@@ -1,10 +1,7 @@
-const year = (new Date()).getFullYear();
-// const year = '2016';
+// const year = (new Date()).getFullYear();
+const year = '2015';
 
-export default class Footer extends React.Component {
-  constructor(props) {
-    super(...arguments);
-  }
+const Footer = React.createClass({
   render() {
     let props = this.props;
     let CopyRight = (
@@ -19,4 +16,6 @@ export default class Footer extends React.Component {
     );
     return SiteFooter;
   }
-}
+});
+
+export default Footer;

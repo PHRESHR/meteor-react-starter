@@ -15,7 +15,7 @@ react
 
 kadira:react-layout
 meteorhacks:npm
-meteorhacks:flow-router
+meteorhacks:flow-router-ssr
 meteorhacks:fast-render
 
 cosmos:browserify
