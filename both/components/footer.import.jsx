@@ -1,5 +1,8 @@
+// Get year with vanilla javascript
 // const year = (new Date()).getFullYear();
-const year = '2015';
+
+// Get year with moment.js
+const year = moment().year();
 
 const Footer = React.createClass({
   render() {
