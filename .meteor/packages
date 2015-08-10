@@ -14,8 +14,8 @@ browser-policy
 react
 
 kadira:react-layout
+kadira:flow-router-ssr
 meteorhacks:npm
-meteorhacks:flow-router-ssr
 meteorhacks:fast-render
 
 cosmos:browserify

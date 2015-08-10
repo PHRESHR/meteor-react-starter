@@ -11,25 +11,6 @@
         },
         "caniuse-db": {
           "version": "1.0.30000238"
-        },
-        "postcss": {
-          "version": "4.1.16",
-          "dependencies": {
-            "es6-promise": {
-              "version": "2.3.0"
-            },
-            "source-map": {
-              "version": "0.4.4",
-              "dependencies": {
-                "amdefine": {
-                  "version": "1.0.0"
-                }
-              }
-            },
-            "js-base64": {
-              "version": "2.1.8"
-            }
-          }
         }
       }
     },
