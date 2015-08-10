@@ -33,7 +33,6 @@
     /////////// Possible Errors ///////////
     // The following rules point out areas where you might have made mistakes.
     "comma-dangle": 0,
-    "no-comma-dangle": 0,
     "no-cond-assign": 0,
     "no-console": 0,
     "no-constant-condition": 0,
@@ -67,6 +66,7 @@
 
     /////////// Stylistic Issues ///////////
     // These rules are purely matters of style and are quite subjective.
+    "array-bracket-spacing": [2, "always"],
     "brace-style": [1, "1tbs"],
     "camelcase": 1,
     "comma-spacing": [
@@ -76,11 +76,13 @@
       }
     ],
     "comma-style": [1, "last"],
+    "computed-property-spacing": [2, "never"],
     "indent": [2, 2],
     "new-cap": 0,
     "no-mixed-spaces-and-tabs": 2,
     "no-trailing-spaces": 2,
     "no-underscore-dangle": 0,
+    "object-curly-spacing": [2, "always"],
     "quotes": [
       1,
       "single",
@@ -100,14 +102,6 @@
     ],
     "space-before-blocks": 0,
     "space-before-function-paren": 0,
-    "space-in-brackets": [2, "always", {
-      "singleValue": false,
-      "objectsInArrays": false,
-      "arraysInArrays": false,
-      "arraysInObjects": false,
-      "objectsInObjects": false,
-      "propertyName": false
-    }],
     "spaced-line-comment": [1, "always"],
 
     /////////// ECMAScript 6 ///////////

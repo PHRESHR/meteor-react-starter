@@ -5,24 +5,18 @@
 # but you can also edit it by hand.
 
 meteor-platform
-reactive-var
-accounts-password
-accounts-facebook
-accounts-twitter
-accounts-google
 browser-policy
 react
-
-kadira:react-layout
 kadira:flow-router-ssr
-meteorhacks:npm
+kadira:react-layout
+kadira:dochead
 meteorhacks:fast-render
-
+meteorhacks:npm
 cosmos:browserify
 universe:modules
 
-sanjo:jasmine
-velocity:html-reporter
+#sanjo:jasmine
+#velocity:html-reporter
 
 app-postcss
 
