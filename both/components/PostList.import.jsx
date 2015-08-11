@@ -7,7 +7,6 @@ export default React.createClass({
     if (handle.ready()) {
       data.posts = Posts.find({}, { sort: { _id: 1 } }).fetch();
     }
-
     return data;
   },
   getList() {
@@ -15,21 +14,12 @@ export default React.createClass({
     DocHead.setTitle(title);
     const metaInfo = { name: 'description', content: 'React with Proper Meteor Integration' };
     DocHead.addMeta(metaInfo);
-    console.log('Title: ' + title);
-    Array.prototype.concatAll = () => {
-      const results = [];
-      this.forEach(subArray => {
-        subArray.forEach(item => {
-          results.push(item);
-        });
-      });
-      return results;
-    };
-    [ 1, 2, 3, 4 ].forEach(x => console.log(x));
-    const mapFunc = [ 1, 2, 3, 4 ].map(x => x + 1);
-    const filterFunc = [ 1, 2, 3, 4 ].filter(x => x > 1);
-    console.log(mapFunc);
-    console.log(filterFunc);
+
+    // [ 1, 2, 3, 4 ].forEach(x => console.log(x));
+    // const mapFunc = [ 1, 2, 3, 4 ].map(x => x + 1);
+    // const filterFunc = [ 1, 2, 3, 4 ].filter(x => x > 1);
+    // const mapPost = this.data.posts.forEach((post) => console.log(post));
+    // console.log(filterFunc);
     return (
       <ul>
         {this.data.posts.map((post) => {
